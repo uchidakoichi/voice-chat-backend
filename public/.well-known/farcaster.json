@@ -1,0 +1,8 @@
+{
+    "version": "1",
+    "name": "Voice Chat Demo",
+    "description": "Real-time voice chat with subtitles and translation",
+    "icon": "https://voice-chat-backend-phi.vercel.app/icon.png",
+    "url": "https://voice-chat-backend-phi.vercel.app"
+  }
+  
