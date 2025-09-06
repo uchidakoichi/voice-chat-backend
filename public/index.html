@@ -10,8 +10,15 @@
   <p>This Mini App enables real-time voice chat with subtitles and translation.</p>
   <script type="module">
     import { sdk } from "https://esm.sh/@farcaster/miniapp-sdk"
-    sdk.actions.ready()
+  
+    async function init() {
+      await sdk.actions.ready()
+      console.log("Mini App is ready for Warpcast.")
+    }
+  
+    init()
   </script>
+  
   
 </body>
 </html>
