@@ -1,0 +1,10 @@
+{
+  "name": "Voice Chat Demo",
+  "description": "Simulated voice chat with subtitles and translation toggle",
+  "entryPoint": "https://voice-chat-backend-phi.vercel.app",
+  "api": {
+    "voice": "/api/voice",
+    "speak": "/api/speak",
+    "subtitles": "/api/subtitles"
+  }
+}
